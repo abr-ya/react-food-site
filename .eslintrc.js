@@ -28,5 +28,12 @@ module.exports = {
     'import/no-unresolved': 0,
     'import/no-import-module-exports': 0,
     'import/no-extraneous-dependencies': 0,
+    'import/extensions': [
+      'error',
+      'ignorePackages',
+      {
+        js: 'never', jsx: 'never', ts: 'never', tsx: 'never',
+      },
+    ],
   },
 };

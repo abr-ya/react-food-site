@@ -1,10 +1,12 @@
 import React from 'react';
+import Navbar from 'components/Navbar/Navbar';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import './hello.scss';
 
 const Hello = () => (
-  <div className="hello">
-    <h1>Hello, World!</h1>
-  </div>
+  <BrowserRouter>
+    <Navbar />
+  </BrowserRouter>
 );
 
 export default Hello;
