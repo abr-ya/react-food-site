@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from 'components/Navbar/Navbar';
+import Footer from 'components/Footer/Footer';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import pages from 'pages/index';
 import './hello.scss';
@@ -13,6 +14,7 @@ const Hello = () => (
       <Route path="/about" element={pages.About()} />
       <Route path="/contact" element={pages.Contact()} />
     </Routes>
+    <Footer />
   </BrowserRouter>
 );
 
