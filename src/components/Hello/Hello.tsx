@@ -3,7 +3,7 @@ import Navbar from 'components/Navbar/Navbar';
 import Footer from 'components/Footer/Footer';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import pages from 'pages/index';
-import './hello.scss';
+import './hello.css';
 
 const Hello = () => (
   <BrowserRouter basename="/">
